@@ -1,0 +1,27 @@
+prototype(Skrull.BackArt.Base:Document.Base) < prototype(Neos.Fusion:Component) {
+      title = ${q(documentNode).property('title')}
+      titleOverride = ${q(documentNode).property('titleOverride')}
+
+      head = Neos.Fusion:Join
+      body = ${null}
+
+      renderer = Neos.Neos:Page {
+        htmlTag.attributes.lang = Neos.Seo:LangAttribute
+
+        head {
+          metaViewport = '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
+          //favicons = ${null}
+          stylesheets = Skrull.BackArt.Base:Component.Atom.StaticCssInclude
+          titleTag {
+            content = ${props.titleOverride ? props.titleOverride : props.title}
+          }
+
+          @process.addAdditionalHeaderTags = ${value + props.head}
+        }
+
+        body = ${props.body}
+
+        //bodyScripts = ${null}
+        //bodyScripts.@position = 'before closingBodyTag'
+      }
+}

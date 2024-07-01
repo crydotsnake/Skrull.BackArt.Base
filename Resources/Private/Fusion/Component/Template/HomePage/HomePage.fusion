@@ -1,0 +1,10 @@
+prototype(Skrull.BackArt.Base:Component.Template.Homepage) < prototype(Neos.Fusion:Component) {
+
+    renderer = afx`
+        <Skrull.BackArt.Base:Component.Molecule.SiteHeader/>
+        <main id="main">
+          {props.content}
+        </main>
+        <Skrull.BackArt.Base:Component.Molecule.SiteFooter/>
+    `
+}

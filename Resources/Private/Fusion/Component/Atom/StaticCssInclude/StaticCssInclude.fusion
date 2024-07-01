@@ -1,0 +1,5 @@
+prototype(Skrull.BackArt.Base:Component.Atom.StaticCssInclude) < prototype(Neos.Fusion:Component) {
+    renderer = afx`
+        <link rel="stylesheet" href={StaticResource.uri('Skrull.BackArt.Base', 'Public/Styles/main.css')} />
+    `
+}

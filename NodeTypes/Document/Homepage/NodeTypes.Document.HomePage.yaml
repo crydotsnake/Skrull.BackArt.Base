@@ -1,0 +1,7 @@
+'Skrull.BackArt.Base:Document.HomePage':
+  superTypes:
+    'Skrull.BackArt.Base:Document': true
+    'Skrull.BackArt.Base:Collection.Main': true
+  ui:
+    icon: fas fa-globe
+    label: i18n

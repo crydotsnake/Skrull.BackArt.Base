@@ -1,0 +1,14 @@
+{
+  "name": "skrull.backart.base",
+  "version": "1.0.0",
+  "description": "Tailwind Build Stack for the Skrull.BackArt.Base package",
+  "scripts": {
+      "watch:css": "npx tailwindcss -i Resources/Private/Styles/main.css -o Resources/Public/Styles/main.css -w",
+      "build:css": "npx tailwindcss -i Resources/Private/Styles/main.css -o Resources/Public/Styles/main.css -m"
+  },
+  "author": "Simon Krull",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

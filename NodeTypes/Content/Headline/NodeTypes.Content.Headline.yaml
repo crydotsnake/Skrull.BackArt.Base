@@ -1,0 +1,11 @@
+'Skrull.BackArt.Base:Content.Headline':
+  superTypes:
+    'Skrull.BackArt.Base:Content': true
+    'Skrull.BackArt.Base:Mixin.Title': true
+    'Skrull.BackArt.Base:Constraint.Content.Main': true
+
+  ui:
+    label: i18n
+    icon: fas fa-heading
+    group: basisElements
+

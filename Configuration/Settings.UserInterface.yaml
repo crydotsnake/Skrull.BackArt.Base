@@ -1,0 +1,23 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        Skrull.BackArt.Base: true
+
+    userInterface:
+      translation:
+        autoInclude:
+          'Skrull.BackArt.Base':
+            - 'NodeTypes/*'
+            - 'Main'
+
+      navigateComponent:
+        nodeTree:
+          loadingDepth: 1
+        structureTree:
+          loadingDepth: 2
+
+    nodeTypes:
+      groups:
+        basisElements:
+          label: Basis Elemente

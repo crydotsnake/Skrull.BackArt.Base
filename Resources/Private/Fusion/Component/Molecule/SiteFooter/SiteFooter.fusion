@@ -1,0 +1,5 @@
+prototype(Skrull.BackArt.Base:Component.Molecule.SiteFooter) < prototype(Neos.Fusion:Component) {
+    renderer = afx`
+            <footer>Site Footer</footer>
+        `
+}

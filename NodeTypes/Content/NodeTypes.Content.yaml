@@ -1,0 +1,3 @@
+'Skrull.BackArt.Base:Content':
+  superTypes:
+    'Neos.Neos:Content': true

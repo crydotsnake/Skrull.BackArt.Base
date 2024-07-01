@@ -1,0 +1,3 @@
+'Skrull.BackArt.Base:Document':
+  superTypes:
+    'Neos.Neos:Document': true

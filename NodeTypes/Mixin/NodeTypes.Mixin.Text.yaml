@@ -1,0 +1,27 @@
+'Skrull.BackArt.Base:Mixin.Text':
+  abstract: true
+  superTypes:
+    'Neos.NodeTypes.BaseMixins:TextMixin': true
+
+  properties:
+    text:
+      type: string
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            formatting:
+              em: false
+              p: true
+              h1: false
+              h2: false
+              h3: false
+              pre: false
+              removeFormat: true
+              table: false
+              a: true
+              ol: false
+              ul: false
+              blockquote: false
+            autoparagraph: false
+            placeholder: i18n

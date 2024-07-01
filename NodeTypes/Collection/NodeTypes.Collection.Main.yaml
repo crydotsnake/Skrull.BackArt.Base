@@ -1,0 +1,7 @@
+'Skrull.BackArt.Base:Collection.Main':
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'Skrull.BackArt.Base:Constraint.Content.Main': true

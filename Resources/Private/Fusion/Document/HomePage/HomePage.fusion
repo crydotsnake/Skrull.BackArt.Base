@@ -1,0 +1,9 @@
+prototype(Skrull.BackArt.Base:Document.HomePage) < prototype(Neos.Fusion:Component) {
+    renderer = Skrull.BackArt.Base:Document.Base {
+        body = Skrull.BackArt.Base:Component.Template.Homepage {
+            content = Neos.Neos:PrimaryContent {
+                nodePath = 'main'
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+Neos:
+  Neos:
+    nodeTypes:
+      groups:
+        plugins: ~
+        basisElements:
+          label: Basis Elements
+          position: 100

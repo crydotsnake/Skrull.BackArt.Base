@@ -1,0 +1,12 @@
+'Skrull.BackArt.Base:Mixin.Title':
+  abstract: true
+  superTypes:
+    'Neos.NodeTypes.BaseMixins:TitleMixin': true
+
+  properties:
+    title:
+      type: string
+      ui:
+        inline:
+          editorOptions:
+            placeholder: i18n
