@@ -1,23 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
-    content: ['DistributionPackages/**/*.{fusion,yaml,html}'],
+    content: ['**/Resources/Private/Fusion/**/*.{fusion,yaml,html}'],
     theme: {
         extend: {
             colors: {
-                'primary-light': '#ffefd5',
-                'primary': '#ffdab9',
-                'secondary-light': '#faebd7',
-                'secondary': '#fff8dc',
-                'secondary-dark': '#f0e68c',
-                'accent-light': '#ffe4e1',
-                'accent': '#ff7f50',
-                'accent-dark': '#ff6347',
-                'neutral-light': '#f5f5f5',
-                'neutral': '#dcdcdc',
-                'neutral-dark': '#a9a9a9',
-                'chocolate': '#d2691e',
-                'cream': '#fffdd0',
+                'backart-primary-light': '#ffefd5',
+                'backart-primary': '#ffdab9',
+                'backart-secondary-light': '#faebd7',
+                'backart-secondary': '#fff8dc',
+                'backart-secondary-dark': '#f0e68c',
+                'backart-accent-light': '#ffe4e1',
+                'backart-accent': '#ff7f50',
+                'backart-accent-dark': '#ff6347',
+                'backart-neutral-light': '#f5f5f5',
+                'backart-neutral': '#dcdcdc',
+                'backart-neutral-dark': '#a9a9a9',
+                'backart-chocolate': '#d2691e',
+                'backart-cream': '#fffdd0',
 
 
                 'backart-wheat': '#f5deb3',
@@ -25,14 +25,14 @@ module.exports = {
                 'backart-lightgrey': '#dcdcdc'
             },
             width: {
-                'container-sm': '37.5rem', // 600px
+                'container-sm': '20.5rem', // 328px
                 'container-md': '45.5rem', // 728px
                 'container-lg': '61.5rem', // 984px
                 'container-xl': '77.5rem', // 1240px
                 'container-2xl': '90rem', // 1440px
             },
             maxWidth: {
-                'container-sm': '37.5rem', // 600px
+                'container-sm': '20.5rem', // 328px
                 'container-md': '45.5rem', // 728px
                 'container-lg': '61.5rem', // 984px
                 'container-xl': '77.5rem', // 1240px
@@ -57,8 +57,6 @@ module.exports = {
                 '2xl': ['1.5rem', { lineHeight: '2rem' }], // 24px Schriftgröße, 32px Zeilenhöhe
                 '3xl': ['1.875rem', { lineHeight: '2.25rem' }], // 30px Schriftgröße, 36px Zeilenhöhe
                 '4xl': ['2.25rem', { lineHeight: '2.5rem' }], // 36px Schriftgröße, 40px Zeilenhöhe
-                '5xl': ['3rem', { lineHeight: '3.25rem' }], // 48px Schriftgröße, 52px Zeilenhöhe
-                '6xl': ['4rem', { lineHeight: '4.25rem' }], // 64px Schriftgröße, 68px Zeilenhöhe,
             },
         },
     },

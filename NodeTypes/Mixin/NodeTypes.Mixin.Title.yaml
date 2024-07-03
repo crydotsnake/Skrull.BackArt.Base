@@ -10,3 +10,5 @@
         inline:
           editorOptions:
             placeholder: i18n
+            formatting:
+              removeFormat: false

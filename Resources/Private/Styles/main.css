@@ -64,18 +64,44 @@
     }
 
     h2 {
-        @apply text-lg md:text-2xl pt-7 md:pt-10;
+        @apply text-lg md:text-3xl pt-7 md:pt-10;
     }
 
     h3 {
-        @apply text-lg md:text-3xl pt-6 md:pt-8;
+        @apply text-lg md:text-2xl pt-6 md:pt-8;
     }
 
     h4 {
-        @apply text-lg md:text-4xl pt-5 md:pt-7;
+        @apply text-sm md:text-xl pt-5 md:pt-7;
     }
 
     p {
         @apply text-base leading-6;
+    }
+
+    a {
+        @apply underline underline-offset-2 decoration-backart-wheat hover:decoration-backart-saddle-brown text-backart-wheat hover:text-backart-saddle-brown;
+    }
+
+    strong {
+        @apply font-bold;
+    }
+
+    ul {
+
+        @apply pl-6 list-disc marker:text-backart-wheat marker:text-2xl;
+
+        li {
+            @apply pt-2;
+        }
+    }
+
+    u {
+        @apply underline-offset-2;
+    }
+
+
+    em {
+        @apply italic;
     }
 }
