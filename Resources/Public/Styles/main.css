@@ -744,29 +744,61 @@ em {
   --tw-contain-style:  ;
 }
 
-.ml-auto {
-  margin-left: auto;
-}
-
-.mr-auto {
-  margin-right: auto;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.max-w-container-sm {
-  max-width: 20.5rem;
-}
-
-.bg-red-600 {
+.bg-backart-accent {
   --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+  background-color: rgb(255 127 80 / var(--tw-bg-opacity));
 }
 
-@media (min-width: 768px) {
-  .md\:max-w-container-2xl {
-    max-width: 90rem;
-  }
+.bg-backart-saddle-brown {
+  --tw-bg-opacity: 1;
+  background-color: rgb(139 69 19 / var(--tw-bg-opacity));
+}
+
+.bg-backart-saddle-brown-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(160 82 45 / var(--tw-bg-opacity));
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.hover\:bg-backart-accent-dark:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 99 71 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-backart-saddle-brown-dark:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(160 82 45 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-backart-saddle-brown:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(139 69 19 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-backart-wheat:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 222 179 / var(--tw-bg-opacity));
 }
