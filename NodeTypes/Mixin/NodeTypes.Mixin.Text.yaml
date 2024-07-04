@@ -11,7 +11,7 @@
         inline:
           editorOptions:
             formatting:
-              p: true
+              p: false
               h1: false
               h2: false
               h3: false
@@ -19,7 +19,6 @@
               table: false
               a: true
               ol: false
-              center: true
               blockquote: false
               removeFormat: false
               underline: true

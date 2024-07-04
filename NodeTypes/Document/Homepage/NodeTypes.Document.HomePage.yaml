@@ -2,6 +2,12 @@
   superTypes:
     'Skrull.BackArt.Base:Document': true
     'Skrull.BackArt.Base:Collection.Main': true
+
+  constraints:
+    nodeTypes:
+      'Skrull.BackArt.Base:Document': false
+      'Skrull.BackArt.Base:Document.HomePage': false
+
   ui:
     icon: fas fa-globe
     label: i18n
