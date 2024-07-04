@@ -1,10 +1,6 @@
 prototype(Skrull.BackArt.Base:Content.Text) < prototype(Neos.Neos:ContentComponent) {
 
-     text = Neos.Neos:Editable {
-         property = 'text'
-     }
-
     renderer = afx`
-        {props.text}
+        <Neos.Neos:Editable property="text"/>
     `
 }
