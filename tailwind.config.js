@@ -5,24 +5,18 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'backart-primary-light': '#ffefd5',
                 'backart-primary': '#ffdab9',
-                'backart-secondary-light': '#faebd7',
                 'backart-secondary': '#fff8dc',
-                'backart-secondary-dark': '#f0e68c',
-                'backart-accent-light': '#ffe4e1',
+                'backart-chocolate': '#d2691e',
                 'backart-accent': '#ff7f50',
                 'backart-accent-dark': '#ff6347',
-                'backart-neutral-light': '#f5f5f5',
                 'backart-neutral': '#dcdcdc',
                 'backart-neutral-dark': '#a9a9a9',
-                'backart-chocolate': '#d2691e',
-                'backart-cream': '#fffdd0',
-
-
-                'backart-wheat': '#f5deb3',
                 'backart-saddle-brown': '#8b4513',
-                'backart-lightgrey': '#dcdcdc'
+                'backart-saddle-brown-dark': '#a0522d',
+                'backart-cream': '#fffdd0',
+                'backart-lightgrey': '#dcdcdc',
+                'backart-wheat': '#f5deb3',
             },
             width: {
                 'container-sm': '20.5rem', // 328px
